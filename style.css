@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.phone-link {
+    color: #3498db;
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#searchResults {
+    margin-top: 20px;
+}
+
+#searchResults div{
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.541);
+    margin-bottom: 10px;
+}
+#searchResults div:hover{
+    background-color: #dfdfdf;
+    box-shadow: 0px 0px 5px 0px #000000;
+}
+p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    font-family: 'Hind Siliguri';
+    user-select: none;
+}
+
+@media only screen and (max-width: 320px) {
+    p {
+        font-size: 14px;
+    }
+}
